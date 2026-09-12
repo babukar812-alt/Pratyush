@@ -1,0 +1,6 @@
+{
+  "name": "ThinkX",
+  "description": "Premium AI-powered education, NCERT study, quiz, revision, flashcard and gamification application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

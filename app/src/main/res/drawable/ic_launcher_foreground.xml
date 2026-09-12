@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Liquid Glass Ring -->
+    <path
+        android:pathData="M54,26 C69.46,26 82,38.54 82,54 C82,69.46 69.46,82 54,82 C38.54,82 26,69.46 26,54 C26,38.54 38.54,26 54,26 Z"
+        android:strokeWidth="2.5"
+        android:fillColor="#1500E5FF">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="0.5" android:color="#FF7C3AED" />
+                <item android:offset="1.0" android:color="#FF2563EB" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Glow Ring -->
+    <path
+        android:pathData="M54,30 C67.25,30 78,40.75 78,54 C78,67.25 67.25,78 54,78 C40.75,78 30,67.25 30,54 C30,40.75 40.75,30 54,30 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#3300E5FF"
+        android:fillColor="#00000000" />
+
+    <!-- 'T' of TX -->
+    <path
+        android:pathData="M37,42 L53,42 L53,46 L47,46 L47,66 L43,66 L43,46 L37,46 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- 'X' of TX with Cyan/Violet accents -->
+    <path
+        android:pathData="M55,42 L60,42 L64.5,52.5 L69,42 L74,42 L67.5,54 L74.5,66 L69.5,66 L64.5,56 L59.5,66 L54.5,66 L61.5,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="42"
+                android:endX="74"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="1.0" android:color="#FFA855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle AI Star Dot above the logo -->
+    <path
+        android:pathData="M54,34 L55,36 L57,37 L55,38 L54,40 L53,38 L51,37 L53,36 Z"
+        android:fillColor="#FF00E5FF" />
+</vector>
